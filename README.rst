@@ -76,3 +76,8 @@ typedef for your data type::
     A.realloc(100,100); // This frees the old memory allocated by A. Any views
                         // which refer to this memory are no longer valid.
                         // Your program may crash if you attempt to access them.
+
+Python Usage
+============
+
+See `examples/cython`.
