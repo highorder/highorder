@@ -19,12 +19,23 @@ notably, it is:
 
 * A Python interface:
 
-  - Boost.Python & Cython interfaces (coming soon!).
+  - Cython interface. See examples/cython.
+  - Boost.Python interface (coming soon!)
   - Still mostly a work in progress.
 
 * MATLAB wrappers:
 
   - Coming soon!
+
+Organization
+============
+
+* `include`: header files
+* `highorder`: Python library
+* `examples`: example implementations
+
+  - `cpp`: C++
+  - `cython`: Cython
 
 C++ Usage
 =========
